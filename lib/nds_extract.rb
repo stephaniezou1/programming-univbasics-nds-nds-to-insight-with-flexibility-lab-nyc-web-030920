@@ -78,6 +78,7 @@ def movies_with_directors_set(source)
   output = []
   i = 0 
   while i < source.size do 
+    director_information_hash = source[i]
     
   
   end
