@@ -68,7 +68,7 @@ def gross_per_studio(collection)
     movie = collection[i]
     
     if !output[movie[:studio]]
-      output[movie[:studio]]
+      output[movie[:studio]] = movie[:worldwide_gross]
     
   end
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
