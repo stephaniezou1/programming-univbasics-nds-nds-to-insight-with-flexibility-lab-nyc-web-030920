@@ -80,7 +80,7 @@ def movies_with_directors_set(source)
   while i < source.size do 
     director_information_hash = source[i]
     director_names = director_information_hash[:name]
-    
+    director_movies = 
   end
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
