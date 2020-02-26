@@ -67,7 +67,8 @@ def gross_per_studio(collection)
   while i < collection.length do
     movie = collection[i]
     
-    if !output[movie][:studio]
+    if !output[movie[:studio]]
+      
     
   end
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
